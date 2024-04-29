@@ -1,8 +1,4 @@
-PROYECTO INTEGRADOR
-DOCENTE:
-ALUMNO:Ares Diego
 
-Parte 1: Investigación sobre IoT
 
 Definición y Aplicaciones del IoT
 El Internet de las Cosas (IoT) es una red de dispositivos interconectados que recopilan y comparten datos entre sí a través de internet, sin necesidad de intervención humana directa. Este concepto revoluciona la manera en que interactuamos con el mundo físico, ya que permite que objetos cotidianos se conviertan en "inteligentes" al estar equipados con sensores, software y conectividad.
@@ -17,12 +13,3 @@ En los negocios, el IoT puede revolucionar la manera en que se gestionan los pro
 Un problema actual que podría ser resuelto mediante la implementación de una solución basada en IoT es la gestión de residuos urbanos. En muchas ciudades, la recolección de basura se realiza de manera estándar, independientemente de la cantidad de residuos generados en un área específica en un momento dado. Esto puede resultar en una gestión ineficiente de los recursos y en la acumulación innecesaria de desechos.
 Sin embargo, mediante la implementación de sensores de llenado en los contenedores de basura, las autoridades municipales podrían monitorear el nivel de llenado en tiempo real y optimizar las rutas de recolección en función de la demanda actual. Esto no solo reduciría los costos operativos asociados con la recolección de basura, sino que también ayudaría a minimizar el impacto ambiental al reducir las emisiones de los vehículos de recolección y al promover una gestión más eficiente de los residuos.
 En resumen, el IoT tiene el potencial de transformar significativamente tanto la vida cotidiana como los negocios, ofreciendo soluciones innovadoras a problemas actuales y mejorando la eficiencia, la productividad y la calidad de vida en general.
-
-Parte 2: Introducción a Git y GitHub
-Git es un software de control de versiones gratis y de código abierto. Fue creado por Linus Torvalds en 2005. Esta herramienta es un sistema de control de versiones que fue inicialmente desarrollado para trabajar con varios desarrolladores en el núcleo de Linux.
-Esto significa básicamente que Git es un rastreador de contenido. Así que Git puede ser utilizado para almacenar contenido — y se usa principalmente para almacenar código debido a otras características que proporciona.
-Los proyectos de la vida real generalmente tienen múltiples desarrolladores trabajando en paralelo. Así que necesitan un sistema de control de versiones como Git para asegurarse de que no hay conflictos de código entre ellos.
-Además, los requerimientos en este tipo de proyectos cambian constantemente. Así que un sistema de control de versiones permite a los desarrolladores revertir y regresar a una versión anterior de su código.
-El sistema de ramas en Git permite a los desarrolladores trabajar individualmente en una tarea (Por ejemplo: una rama -> una tarea O una Rama -> un desarrollador). Básicamente, se puede pensar en Git como una aplicación de software pequeña que controla tu código base, si eres un desarrollador.
-
-
