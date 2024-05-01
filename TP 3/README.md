@@ -1,4 +1,4 @@
-<img src="C:\Users\Usuario\Documents\ISPC\Proyecto Integrador 1" alt="imagen PI">
+![yy](https://github.com/ISPC-TST-PI-I-2024/Diego-Ares-monorepositorio-PI/assets/114953054/f0a7f483-3b1a-4099-965a-46428081a84b)
 
 TP #3 Transductores binarios
 
