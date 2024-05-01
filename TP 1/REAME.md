@@ -1,4 +1,4 @@
-![alt text](1.244.jpg)
+<img src="C:\Users\Usuario\Documents\ISPC\Proyecto Integrador 1" alt="IMAGEN PI">
 
 Trabajo Práctico #1: Introducción al IoT
 
