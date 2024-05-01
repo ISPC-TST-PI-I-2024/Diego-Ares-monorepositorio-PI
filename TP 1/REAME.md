@@ -1,4 +1,4 @@
-<img src="C:\Users\Usuario\Documents\ISPC\Proyecto Integrador 1" alt="IMAGEN PI">
+![PI](https://github.com/ISPC-TST-PI-I-2024/Diego-Ares-monorepositorio-PI/assets/114953054/a3fd44d3-afc8-458e-8a55-29a13f2e38fe)
 
 Trabajo Práctico #1: Introducción al IoT
 
