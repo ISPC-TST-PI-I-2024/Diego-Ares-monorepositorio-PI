@@ -1,4 +1,4 @@
-![alt text](PI.png)
+![alt text](./rsc/PI.png)
 
 Fundamentos de Programación IoT y Módulos de Desarrollo
 

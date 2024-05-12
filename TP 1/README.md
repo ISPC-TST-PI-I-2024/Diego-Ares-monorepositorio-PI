@@ -1,4 +1,4 @@
-![alt text](PI.png)
+![alt text](./rsc/PI.png)
 
 Trabajo Práctico #1: Introducción al IoT
 

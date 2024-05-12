@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](./rsc/PI.png)
 
 TP #4
 
