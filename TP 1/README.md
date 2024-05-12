@@ -1,4 +1,4 @@
-![PI](https://github.com/ISPC-TST-PI-I-2024/Diego-Ares-monorepositorio-PI/assets/114953054/a3fd44d3-afc8-458e-8a55-29a13f2e38fe)
+![alt text](PI.png)
 
 Trabajo Práctico #1: Introducción al IoT
 

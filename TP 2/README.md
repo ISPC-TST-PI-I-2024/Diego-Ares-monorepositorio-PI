@@ -1,6 +1,4 @@
-![yy](https://github.com/ISPC-TST-PI-I-2024/Diego-Ares-monorepositorio-PI/assets/114953054/f267264b-6057-4985-a747-02f23431299f)
-
-Trabajo Práctico #2
+![alt text](PI.png)
 
 Fundamentos de Programación IoT y Módulos de Desarrollo
 
