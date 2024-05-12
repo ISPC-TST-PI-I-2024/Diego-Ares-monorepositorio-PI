@@ -1,4 +1,8 @@
-from machine import Pin, ADC
+fron machine import Pin
+{
+    /* code */
+}
+ machine import Pin, ADC
 import time
 
 # Configura el pin analógico (modificar según sea necesario)
@@ -18,4 +22,4 @@ def leer_temperatura(sensor):
 while True:
     temperatura = leer_temperatura(sensorPin)
     print("Temperatura: {:.2f} ºC".format(temperatura))
-    time.sleep(1)  # Espera un segundo antes de la próxima lectura
+    time.sleep(1)  //Espera un segundo antes de la próxima lectura

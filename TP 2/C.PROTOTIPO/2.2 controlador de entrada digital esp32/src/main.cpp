@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-# Definir los pines para el botón y el LED
+// Definir los pines para el botón y el LED
 button_pin = 14   # Pin donde está conectado el botón (GPIO14 en ESP32)
 led_pin = 15      # Pin donde está conectado el LED (GPIO15 en ESP32)
 
