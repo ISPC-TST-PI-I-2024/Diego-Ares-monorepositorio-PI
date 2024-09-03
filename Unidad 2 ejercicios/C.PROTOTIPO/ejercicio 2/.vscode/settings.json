@@ -1,0 +1,46 @@
+[
+{
+    "_id": "unique_user_id",  // Identificador único del usuario
+    "nombre": "Nombre del Usuario",
+    "contacto": {
+        "email": "usuario@example.com",
+        "telefono": "123-456-7890"
+    }
+}
+{
+    "_id": "unique_technician_id",  // Identificador único del técnico
+    "nombre": "Nombre del Técnico",
+    "contacto": {
+        "email": "tecnico@example.com",
+        "telefono": "098-765-4321"
+    },
+    "habilidades": ["Redes", "Hardware", "Software"]
+}
+
+{
+    "_id": "unique_ticket_id",  // Identificador único del ticket
+    "detalles_problema": "Descripción detallada del problema reportado.",
+    "usuario": {
+        "_id": "unique_user_id",  // Referencia al usuario afectado
+        "nombre": "Nombre del Usuario"
+    },
+    "tecnico_asignado": {
+        "_id": "unique_technician_id",  // Referencia al técnico asignado
+        "nombre": "Nombre del Técnico"
+    },
+    "estado": "Abierto",  // Puede ser "Abierto", "En progreso", "Cerrado", etc.
+    "historial_acciones": [
+        {
+            "accion": "Ticket creado",
+            "fecha": "YYYY-MM-DD",
+            "descripcion": "Detalles sobre la acción realizada."
+        },
+        {
+            "accion": "Asignado a técnico",
+            "fecha": "YYYY-MM-DD",
+            "descripcion": "Detalles sobre la asignación del técnico."
+        },
+        // Se pueden añadir más acciones al historial
+    ]
+}
+]

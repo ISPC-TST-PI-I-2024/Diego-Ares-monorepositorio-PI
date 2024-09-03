@@ -1,0 +1,60 @@
+
+{
+    "_id": "unique_student_id",  // Identificador único del estudiante (Número de Matrícula)
+    "nombre": "Nombre del Estudiante",
+    "direccion": "Dirección del Estudiante"
+}
+
+{
+    "_id": "unique_course_code",  // Identificador único del curso (Código de Curso)
+    "nombre": "Nombre del Curso",
+    "creditos": 3  // Créditos del curso
+}
+
+{
+"_id": "unique_enrollment_id",  // Identificador único de la inscripción (opcional)
+"estudiante": {
+    "_id": "unique_student_id",  // Referencia al estudiante inscrito (Número de Matrícula)
+    "nombre": "Nombre del Estudiante"
+},
+"curso": {
+    "_id": "unique_course_code",  // Referencia al curso en el que está inscrito (Código de Curso)
+    "nombre": "Nombre del Curso"
+},
+"calificacion_final": 85  // Calificación final del estudiante en el curso
+}
+
+db.Estudiantes.insertOne({
+    _id: "20230001",
+    nombre: "Juan Pérez",
+    direccion: "Calle Falsa 123"
+});
+
+db.Cursos.insertOne({
+    _id: "CS101",
+    nombre: "Introducción a la Programación",
+    creditos: 4
+});
+
+db.Inscripciones.insertOne({
+    estudiante: {
+        _id: "20230001",
+        nombre: "Juan Pérez"
+    },
+    curso: {
+        _id: "CS101",
+        nombre: "Introducción a la Programación"
+    },
+    calificacion_final: null  // Inicialmente sin calificación
+});
+
+db.Inscripciones.updateOne(
+    { "estudiante._id": "20230001", "curso._id": "CS101" },
+    { $set: { "calificacion_final": 92 } }
+);
+
+db.Inscripciones.find({ "estudiante._id": "20230001" });
+
+db.Inscripciones.find({ "curso._id": "CS101" });
+
+
