@@ -1,56 +1,41 @@
 {
-    "libros": [
-      {
-        "ISBN": "978-3-16-148410-0",
-        "Titulo": "Don Quijote de la Mancha",
-        "Autor": "Miguel de Cervantes",
-        "Estado": "Disponible"
-      },
-      {
-        "ISBN": "978-0-14-044926-6",
-        "Titulo": "1984",
-        "Autor": "George Orwell",
-        "Estado": "Prestado"
-      }
-    ]
-  }
-
-  {
-    "miembros": [
-      {
-        "ID_Miembro": 1,
-        "Nombre": "Juan Pérez",
-        "Direccion": "Calle Falsa 123",
-        "Telefono": "555-1234",
-        "Fecha_Inscripcion": "2024-09-03"
-      },
-      {
-        "ID_Miembro": 2,
-        "Nombre": "Maria García",
-        "Direccion": "Avenida Siempre Viva 742",
-        "Telefono": "555-5678",
-        "Fecha_Inscripcion": "2023-11-12"
-      }
-    ]
-  }
-
-  {
-    "prestamos": [
-      {
-        "ID_Prestamo": 1,
-        "Fecha_Prestamo": "2024-09-03",
-        "Fecha_Devolucion": null,
-        "ISBN": "978-0-14-044926-6",
-        "ID_Miembro": 1
-      },
-      {
-        "ID_Prestamo": 2,
-        "Fecha_Prestamo": "2024-08-25",
-        "Fecha_Devolucion": "2024-09-01",
-        "ISBN": "978-3-16-148410-0",
-        "ID_Miembro": 2
-      }
-    ]
-  }
-
-  
+  "Libros": [
+    {
+      "ISBN": "978-3-16-148410-0",
+      "Título": "Cien Años de Soledad",
+      "Autor": "Gabriel García Márquez",
+      "Estado": "Disponible"
+    },
+    {
+      "ISBN": "978-0-14-044913-6",
+      "Título": "Crimen y Castigo",
+      "Autor": "Fiódor Dostoyevski",
+      "Estado": "Prestado"
+    }
+  ],
+  "Miembros": [
+    {
+      "ID_Miembro": 1,
+      "Nombre": "Ana López",
+      "Dirección": "Calle Falsa 123",
+      "Teléfono": "+34 123 456 789",
+      "Fecha_Inscripción": "2023-05-14"
+    },
+    {
+      "ID_Miembro": 2,
+      "Nombre": "Luis García",
+      "Dirección": "Avenida Siempre Viva 742",
+      "Teléfono": "+34 987 654 321",
+      "Fecha_Inscripción": "2024-01-20"
+    }
+  ],
+  "Préstamos": [
+    {
+      "ID_Préstamo": 1,
+      "ISBN": "978-0-14-044913-6",
+      "ID_Miembro": 2,
+      "Fecha_Préstamo": "2024-08-15",
+      "Fecha_Devolución": "2024-09-15"
+    }
+  ]
+}

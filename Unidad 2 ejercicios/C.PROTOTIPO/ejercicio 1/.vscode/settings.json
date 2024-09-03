@@ -1,27 +1,47 @@
 {
-    "_id": "unique_author_id",  // Identificador único del autor
-    "nombre": "Nombre del Autor",
-    "biografia": "Biografía del autor."
-}
-
-{
-    "_id": "unique_post_id",  // Identificador único de la publicación
-    "titulo": "Título de la publicación",
-    "contenido": "Contenido de la publicación.",
-    "autor": {
-        "_id": "unique_author_id",  // Referencia al autor (relación)
-        "nombre": "Nombre del Autor"  // Incluye nombre para facilidad de acceso
-    },
-    "fecha_publicacion": "YYYY-MM-DD",
-    "comentarios": [
-        {
-            "contenido": "Comentario sobre la publicación.",
-            "autor": {
-                "_id": "unique_comment_author_id",  // Referencia al autor del comentario
-                "nombre": "Nombre del Autor del Comentario"
-            },
-            "fecha": "YYYY-MM-DD"
-        },
-        // Pueden haber múltiples comentarios embebidos aquí
+    "Autores": [
+      {
+        "ID_Autor": 1,
+        "Nombre": "Juan Pérez",
+        "Biografía": "Desarrollador de software con 10 años de experiencia."
+      },
+      {
+        "ID_Autor": 2,
+        "Nombre": "María López",
+        "Biografía": "Especialista en marketing digital y creadora de contenido."
+      }
+    ],
+    "Publicaciones": [
+      {
+        "ID_Publicación": 1,
+        "Título": "Introducción a la Programación",
+        "Contenido": "Este artículo cubre los conceptos básicos de la programación.",
+        "Autor": 1,
+        "Fecha_Publicación": "2024-09-01",
+        "Comentarios": [
+          {
+            "ID_Comentario": 1,
+            "Contenido": "Excelente artículo, muy informativo.",
+            "Autor": 2,
+            "Fecha_Comentario": "2024-09-02"
+          }
+        ]
+      },
+      {
+        "ID_Publicación": 2,
+        "Título": "Estrategias de Marketing Digital",
+        "Contenido": "Aquí exploramos las mejores estrategias para el marketing digital en 2024.",
+        "Autor": 2,
+        "Fecha_Publicación": "2024-09-03",
+        "Comentarios": [
+          {
+            "ID_Comentario": 2,
+            "Contenido": "Muy útil, lo aplicaré en mi negocio.",
+            "Autor": 1,
+            "Fecha_Comentario": "2024-09-04"
+          }
+        ]
+      }
     ]
-}
+  }
+  

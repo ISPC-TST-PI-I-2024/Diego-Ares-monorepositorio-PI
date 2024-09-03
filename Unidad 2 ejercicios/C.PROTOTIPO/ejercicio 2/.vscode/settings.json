@@ -1,46 +1,74 @@
-[
 {
-    "_id": "unique_user_id",  // Identificador único del usuario
-    "nombre": "Nombre del Usuario",
-    "contacto": {
-        "email": "usuario@example.com",
-        "telefono": "123-456-7890"
-    }
-}
-{
-    "_id": "unique_technician_id",  // Identificador único del técnico
-    "nombre": "Nombre del Técnico",
-    "contacto": {
-        "email": "tecnico@example.com",
-        "telefono": "098-765-4321"
-    },
-    "habilidades": ["Redes", "Hardware", "Software"]
-}
-
-{
-    "_id": "unique_ticket_id",  // Identificador único del ticket
-    "detalles_problema": "Descripción detallada del problema reportado.",
-    "usuario": {
-        "_id": "unique_user_id",  // Referencia al usuario afectado
-        "nombre": "Nombre del Usuario"
-    },
-    "tecnico_asignado": {
-        "_id": "unique_technician_id",  // Referencia al técnico asignado
-        "nombre": "Nombre del Técnico"
-    },
-    "estado": "Abierto",  // Puede ser "Abierto", "En progreso", "Cerrado", etc.
-    "historial_acciones": [
-        {
-            "accion": "Ticket creado",
-            "fecha": "YYYY-MM-DD",
-            "descripcion": "Detalles sobre la acción realizada."
-        },
-        {
-            "accion": "Asignado a técnico",
-            "fecha": "YYYY-MM-DD",
-            "descripcion": "Detalles sobre la asignación del técnico."
-        },
-        // Se pueden añadir más acciones al historial
+    "Usuarios": [
+      {
+        "ID_Usuario": 1,
+        "Nombre": "Carlos Gómez",
+        "Contacto": "carlos.gomez@example.com"
+      },
+      {
+        "ID_Usuario": 2,
+        "Nombre": "Laura Martínez",
+        "Contacto": "laura.martinez@example.com"
+      }
+    ],
+    "Técnicos": [
+      {
+        "ID_Técnico": 1,
+        "Nombre": "Ana Rodríguez",
+        "Contacto": "ana.rodriguez@example.com",
+        "Habilidades": "Redes, Servidores"
+      },
+      {
+        "ID_Técnico": 2,
+        "Nombre": "Pedro Sánchez",
+        "Contacto": "pedro.sanchez@example.com",
+        "Habilidades": "Hardware, Soporte de Software"
+      }
+    ],
+    "Tickets": [
+      {
+        "ID_Ticket": 1,
+        "Problema": "El servidor no responde",
+        "Usuario_ID": 1,
+        "Técnico_ID": 1,
+        "Estado": "Abierto",
+        "Historial_Acciones": [
+          {
+            "Acción": "Ticket creado",
+            "Fecha": "2024-09-01",
+            "Descripción": "El usuario reportó que el servidor principal no responde."
+          },
+          {
+            "Acción": "Asignado a técnico",
+            "Fecha": "2024-09-01",
+            "Descripción": "El ticket fue asignado a Ana Rodríguez."
+          }
+        ]
+      },
+      {
+        "ID_Ticket": 2,
+        "Problema": "Problemas con la impresora",
+        "Usuario_ID": 2,
+        "Técnico_ID": 2,
+        "Estado": "En Progreso",
+        "Historial_Acciones": [
+          {
+            "Acción": "Ticket creado",
+            "Fecha": "2024-09-02",
+            "Descripción": "La impresora no imprime documentos desde la actualización."
+          },
+          {
+            "Acción": "Asignado a técnico",
+            "Fecha": "2024-09-02",
+            "Descripción": "El ticket fue asignado a Pedro Sánchez."
+          },
+          {
+            "Acción": "Técnico en proceso de resolución",
+            "Fecha": "2024-09-03",
+            "Descripción": "Pedro está diagnosticando el problema de la impresora."
+          }
+        ]
+      }
     ]
-}
-]
+  }
+  
