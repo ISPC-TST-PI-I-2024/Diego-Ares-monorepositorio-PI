@@ -1,0 +1,17 @@
+{
+    "nombre": "Juan",
+    "edad": 30,
+    "esEstudiante": false,
+    "hobbies": [
+        "fútbol",
+        "lectura",
+        "cocina"
+    ],
+    "direccion": {
+        "calle": "Avenida Siempre Viva",
+        "numero": 742,
+        "ciudad": "Springfield"
+    },
+    "mascotas": null
+}
+
